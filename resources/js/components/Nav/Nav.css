@@ -1,0 +1,32 @@
+.classB {
+    background-color: white;
+  }
+  
+  .navItemsColor {
+    color: black;
+  }
+  
+  .activeTabClass {
+    color: #dc0079;
+    background-color: #fce7f3;
+  }
+  
+  .transitionClassShow {
+    visibility: visible;
+    opacity: 1;
+    transition: ease-in 0.3s;
+    height: auto;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 1px 1px pink;
+  }
+  
+  .transitionClass {
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+    transition: ease-out 0.3s;
+  }
+  
+  .mobileHeader {
+    background: white;
+  }

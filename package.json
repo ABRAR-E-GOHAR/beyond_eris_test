@@ -1,0 +1,43 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.0.0",
+        "@tailwindcss/postcss7-compat": "^2.0.2",
+        "autoprefixer": "^9.8.6",
+        "axios": "^0.21",
+        "bootstrap": "^4.0.0",
+        "jquery": "^3.2",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.12",
+        "postcss": "^8.1.14",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "resolve-url-loader": "^3.1.0",
+        "sass": "^1.15.2",
+        "sass-loader": "^8.0.0",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.2",
+        "@inertiajs/inertia": "^0.8.2",
+        "@inertiajs/inertia-react": "^0.5.1",
+        "@popperjs/core": "^2.6.0",
+        "@tailwindcss/custom-forms": "^0.2.1",
+        "react-redux": "^7.2.2",
+        "react-router": "^5.2.0",
+        "react-router-dom": "^5.2.0",
+        "react-toastify": "^6.2.0",
+        "redux": "^4.0.5",
+        "redux-saga": "^1.1.3"
+    }
+}

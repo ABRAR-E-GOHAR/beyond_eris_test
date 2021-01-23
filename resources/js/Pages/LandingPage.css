@@ -1,0 +1,19 @@
+.headerBackground {
+    background-image: url('../assets/Background.jpg');
+    max-height: 600;
+}
+
+
+.activeTabStyle {
+    border: 2px solid #E1BC1A;
+  }
+
+  .tableBody tr:nth-child(even) {
+
+    background-color:white;
+  }
+
+  .tableBody tr:nth-child(odd) {
+
+    background-color: gray;
+  }
